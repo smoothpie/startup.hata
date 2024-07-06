@@ -1,0 +1,62 @@
+.who {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.who h1 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.who p {
+  margin-bottom: 2rem;
+  max-width: 54rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.who ul {
+  padding-left: 1rem;
+}
+
+.who h2 {
+  margin-bottom: 1rem;
+}
+
+.person {
+  display: flex;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+
+.person a {
+  text-decoration: underline;
+}
+
+.person a:hover {
+  opacity: 0.6;
+}
+
+.person img {
+  border-radius: 50%;
+}
+
+@media(max-width: 1024px) {
+  .who {
+    padding: 2rem;
+  }
+
+  .who h1 {
+    font-size: 2rem;
+  }
+
+  .who p {
+    font-size: 1.125rem;
+  }
+
+  .person {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
